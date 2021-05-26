@@ -14,7 +14,7 @@ const loadQuiz = (api) => {
     quizResultBox.classList.remove('visible');
     // quizForm.innerHTML = '<div class="spinner"></div>';
     quizForm.innerHTML = ` <div class="spinner">
-                                <img src="./img/preloader.gif" alt="">
+                                <img src="./images/preloader.gif" alt="">
                           </div> `;
 
     fetch(api)
