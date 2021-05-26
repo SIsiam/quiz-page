@@ -1,0 +1,55 @@
+@media screen and (max-width: 700px) {
+    .container {
+        width: calc(100% - 20px);
+    }
+    .header {
+        background:  url(../images/Exams-bro.png) no-repeat center center / cover;
+        padding: 140px 0;
+        height: 100vh;
+    }
+    .question-box {
+        padding: 30px 10px 15px;
+    }
+    .option__box {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .option label span {
+        padding: 12px;
+    }
+    .my-primary-btn {
+        padding: 14px 28px;
+        font-size: 15px;
+    }
+    .filter{
+        padding: 20px 0;
+    }
+    .filter-form>div {
+        width: calc(50% - 5px);
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        background:  url(../images/Exams-bro.png) no-repeat center center / cover;
+        padding: 100px 0;
+        height: 70vh;
+    }
+    .timer {
+        text-align: center;
+        margin: 50px auto ;
+    }
+    .hero-title{
+        font-size: 45px;
+    }
+    .question {
+        font-size: 16px;
+    }
+    .filter{
+        padding: 15px 0;
+    }
+    .filter-form>div {
+        width: 100%;
+    }
+}
